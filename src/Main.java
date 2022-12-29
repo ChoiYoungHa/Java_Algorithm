@@ -3,33 +3,42 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        String[] data = new String[num];
-        for (int i = 0; i < num; i++) {
-            data[i] = sc.next();
-        }
 
-        for (String x : solution(data, num)) {
-            System.out.println(x);
+        String data = sc.nextLine();
+        for(int x : solution(data)){
+            System.out.print(x + " ");
         }
     }
 
-    public static ArrayList<String> solution(String [] str, int num) {
-        ArrayList<String> answer = new ArrayList<>();
+    public static int [] solution(String str) {
+        String [] s = str.split(" ");
+        int num = s[0].length();
+        int[] answer = new int[num];
+        int p = 1000;
 
-        for (String x : str) {
-            char [] it = x.toCharArray();
-            int lt = 0, rt = it.length - 1;
-            while (lt < rt) {
-                char temp = it[lt];
-                it[lt] = it[rt];
-                it[rt] = temp;
-                rt--;
-                lt++;
+        for (int i = 0; i < s[0].length(); i++) {
+            if (s[0].charAt(i) == s[1].charAt(0)) {
+                p = 0;
+                answer[i] = p;
+            }else{
+                p++;
+                answer[i] = p;
             }
-            String s = String.valueOf(it);
-            answer.add(s);
         }
+
+        for (int j = s[0].length() - 1; j >= 0 ; j--) {
+            if (s[0].charAt(j) == s[1].charAt(0)){
+                p = 0;
+                answer[j] = p;
+            }else {
+                p++;
+                if (!(answer[j] < p)){
+                    answer[j] = p;
+                }
+            }
+        }
+
+
 
         return answer;
     }
