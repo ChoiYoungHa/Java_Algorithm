@@ -1,15 +1,6 @@
-import java.util.*;
+package String;
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        String data = sc.nextLine();
-        for(int x : solution(data)){
-            System.out.print(x + " ");
-        }
-    }
-
+public class CharDistance {
     public static int [] solution(String str) {
         String [] s = str.split(" ");
         int num = s[0].length();
