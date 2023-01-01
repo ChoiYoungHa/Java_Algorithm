@@ -5,22 +5,26 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
-        String data = sc.next();
-        String solution = solution(data, num);
-        System.out.println(solution);
-    }
-
-    public static String solution(String str, int num) {
-        String answer = "";
-        String temp = "";
-
+        int[] numList = new int[num];
         for (int i = 0; i < num; i++) {
-            temp = str.replace('*', '0').replace('#','1').substring(0,7);
-            int ten = Integer.parseInt(temp, 2);
-            answer += (char) ten;
-            str = str.substring(7);
+            numList[i] = sc.nextInt();
         }
 
+        int res = solution(numList);
+        System.out.println(res);
+
+    }
+
+    public static int solution(int [] numList) {
+        int answer = 0;
+        int max = 0;
+
+        for (int i = 0; i < numList.length; i++) {
+            if (numList[i] > max){
+                answer++;
+                max = numList[i];
+            }
+        }
         return answer;
     }
 }
