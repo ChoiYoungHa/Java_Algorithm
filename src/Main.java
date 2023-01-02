@@ -5,26 +5,23 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
-        int[] numList = new int[num];
-        for (int i = 0; i < num; i++) {
-            numList[i] = sc.nextInt();
-        }
 
-        int res = solution(numList);
+        int res = solution(num);
         System.out.println(res);
 
     }
 
-    public static int solution(int [] numList) {
-        int answer = 0;
-        int max = 0;
+    public static int solution(int num) {
 
-        for (int i = 0; i < numList.length; i++) {
-            if (numList[i] > max){
-                answer++;
-                max = numList[i];
+        int  answer = num - 1;
+
+        for (int i = 6; i <= num; i++) {
+            if (i % 2 == 0 || i % 3 == 0 || i % 5 == 0) {
+                answer--;
+                System.out.println(i);
             }
         }
         return answer;
+
     }
 }
