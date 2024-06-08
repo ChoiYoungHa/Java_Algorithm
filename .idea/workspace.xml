@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122b0e2f-8a42-4a49-91a4-902ba68dcee3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ex01_string/ex_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex01_string/ex_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex02_if/ex_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -34,7 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -79,7 +80,10 @@
       <updated>1717498799320</updated>
       <workItem from="1717498800882" duration="4088000" />
       <workItem from="1717584961374" duration="1149000" />
-      <workItem from="1717650720803" duration="5887000" />
+      <workItem from="1717650720803" duration="5969000" />
+      <workItem from="1717728016726" duration="3242000" />
+      <workItem from="1717737051665" duration="31000" />
+      <workItem from="1717831434605" duration="2007000" />
     </task>
     <servers />
   </component>
