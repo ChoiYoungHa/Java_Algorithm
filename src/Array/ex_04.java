@@ -1,9 +1,8 @@
 package Array;
 
-import java.net.Inet4Address;
 import java.util.Scanner;
 
-public class ex04 {
+public class ex_04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -13,7 +12,7 @@ public class ex04 {
                 arr[i][j] = sc.nextInt();
             }
         }
-        ex04 ex04 = new ex04();
+        ex_04 ex04 = new ex_04();
         int result = ex04.solution(arr, n);
 
         System.out.println(result);
