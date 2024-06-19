@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122b0e2f-8a42-4a49-91a4-902ba68dcee3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoPoint/ex_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursive/ex_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPoint/ex_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPoint/ex_04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPoint/ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPoint/ex_02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoPoint.ex_01">
+  <component name="RunManager" selected="Application.ex_04">
     <configuration name="TwoPoint.ex_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TwoPoint.ex_01" />
       <module name="java_algorithm" />
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex_04_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ex_04_01" />
+    <configuration name="ex_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPoint.ex_02" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="TwoPoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ex_05" />
+    <configuration name="ex_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPoint.ex_03" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="TwoPoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex_05_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ex_05_01" />
+    <configuration name="ex_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPoint.ex_04" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="TwoPoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex_04" />
+        <item itemvalue="Application.ex_03" />
+        <item itemvalue="Application.ex_02" />
         <item itemvalue="Application.TwoPoint.ex_01" />
         <item itemvalue="Application.ex_01" />
-        <item itemvalue="Application.ex_05_01" />
-        <item itemvalue="Application.ex_04_01" />
-        <item itemvalue="Application.ex_05" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +162,7 @@
       <workItem from="1717728016726" duration="3242000" />
       <workItem from="1717737051665" duration="31000" />
       <workItem from="1717831434605" duration="2920000" />
-      <workItem from="1718243764886" duration="62250000" />
+      <workItem from="1718243764886" duration="80723000" />
     </task>
     <servers />
   </component>
