@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122b0e2f-8a42-4a49-91a4-902ba68dcee3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoPoint/ex_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPoint/ex_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPoint/ex_06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPoint/ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPoint/ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPoint/ex_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPoint/ex_05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,65 +32,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Array.ex_01.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.TwoPoint.ex_01.executor": "Run",
-    "Application.ex04.executor": "Run",
-    "Application.ex_01.executor": "Run",
-    "Application.ex_02.executor": "Run",
-    "Application.ex_03.executor": "Run",
-    "Application.ex_04.executor": "Run",
-    "Application.ex_04_01.executor": "Run",
-    "Application.ex_05.executor": "Run",
-    "Application.ex_05_01.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Array.ex_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoPoint.ex_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex_03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex_04.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex_04_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex_05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex_05_01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="TwoPoint" />
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ex_04">
-    <configuration name="TwoPoint.ex_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPoint.ex_01" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TwoPoint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursive.ex_01" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex_06">
     <configuration name="ex_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TwoPoint.ex_02" />
       <module name="java_algorithm" />
@@ -131,13 +104,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPoint.ex_05" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwoPoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPoint.ex_06" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwoPoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex_06" />
+        <item itemvalue="Application.ex_05" />
         <item itemvalue="Application.ex_04" />
         <item itemvalue="Application.ex_03" />
         <item itemvalue="Application.ex_02" />
-        <item itemvalue="Application.TwoPoint.ex_01" />
-        <item itemvalue="Application.ex_01" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +161,8 @@
       <workItem from="1717728016726" duration="3242000" />
       <workItem from="1717737051665" duration="31000" />
       <workItem from="1717831434605" duration="2920000" />
-      <workItem from="1718243764886" duration="80723000" />
+      <workItem from="1718243764886" duration="86528000" />
+      <workItem from="1718945069081" duration="3680000" />
     </task>
     <servers />
   </component>
