@@ -18,25 +18,20 @@ public class ex_01 {
         System.out.print(ex.solution(n, vote));
     }
 
-    public Character solution(int n, String vote) {
+    public char solution(int n, String vote) {
         HashMap<Character, Integer> map = new HashMap<>();
-
-        for (char i : vote.toCharArray()) {
-            if (map.containsKey(i)){
-                map.put(i, map.get(i) + 1);
-            } else map.put(i, 1);
+        char answer = ' ';
+        for (char x : vote.toCharArray()) {
+            map.put(x, map.getOrDefault(x, 0)+1);
         }
 
         int max = 0;
-        Character answer = null;
-
-        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-            if (entry.getValue() > max){
-                max = entry.getValue();
-                answer = entry.getKey();
+        for (char key : map.keySet()){
+            if (map.get(key) > max) {
+                max = map.get(key);
+                answer = key;
             }
         }
-
         return answer;
     }
 }

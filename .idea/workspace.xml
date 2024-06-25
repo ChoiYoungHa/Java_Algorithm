@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122b0e2f-8a42-4a49-91a4-902ba68dcee3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sort/Bubble_Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/Insert_Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/Select_Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashMap/ex_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/ex_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/ex_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/ex_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/ex_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/ex_02_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/ex_02_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/Insert_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/Insert_Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,7 @@
     "Application.ex04.executor": "Run",
     "Application.ex_01.executor": "Run",
     "Application.ex_02.executor": "Run",
+    "Application.ex_02_1.executor": "Run",
     "Application.ex_03.executor": "Run",
     "Application.ex_04.executor": "Run",
     "Application.ex_04_01.executor": "Run",
@@ -70,35 +73,9 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Insert_Sort">
-    <configuration name="Bubble_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.Bubble_Sort" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex_03">
     <configuration name="Insert_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort.Insert_Sort" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Select_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.Select_Sort" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -123,12 +100,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPoint.ex_06" />
+    <configuration name="ex_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.ex_02" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TwoPoint.*" />
+          <option name="PATTERN" value="HashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_02_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.ex_02_1" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.ex_03" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Insert_Sort" />
-        <item itemvalue="Application.Bubble_Sort" />
-        <item itemvalue="Application.Select_Sort" />
+        <item itemvalue="Application.ex_03" />
+        <item itemvalue="Application.ex_02_1" />
+        <item itemvalue="Application.ex_02" />
         <item itemvalue="Application.ex_01" />
-        <item itemvalue="Application.ex_06" />
+        <item itemvalue="Application.Insert_Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +173,9 @@
       <workItem from="1718243764886" duration="86528000" />
       <workItem from="1718945069081" duration="5008000" />
       <workItem from="1719130849696" duration="5149000" />
-      <workItem from="1719140611293" duration="8797000" />
+      <workItem from="1719140611293" duration="9425000" />
+      <workItem from="1719180716264" duration="884000" />
+      <workItem from="1719202278073" duration="16204000" />
     </task>
     <servers />
   </component>
