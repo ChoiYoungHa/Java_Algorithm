@@ -30,6 +30,7 @@ public class ex_04 {
             t_map.put(x, t_map.getOrDefault(x, 0) + 1);
         }
 
+
         for (int rt = t.length() - 1; rt < s.length(); rt++) {
             s_map.put(charArray[rt], s_map.getOrDefault(charArray[rt], 0) + 1);
             if (s_map.equals(t_map)) answer += 1;
