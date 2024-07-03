@@ -3,28 +3,27 @@ package Stack;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class ex_02 {
+public class ex_02_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
 
-        ex_02 ex = new ex_02();
+        ex_02_1 ex = new ex_02_1();
         System.out.println(ex.solution(s));
     }
 
     public String solution(String s) {
-        String answer = "NO";
         Stack<Character> stack = new Stack<>();
-        char[] charArray = s.toCharArray();
-        stack.push(charArray[0]);
+        String answer = "YES";
 
-        for (int i = 1; i < charArray.length; i++) {
-            if (!stack.isEmpty() && stack.peek() == '(' && charArray[i] == ')'){
+        for (char x : s.toCharArray()) {
+            if (x == '(') stack.push(x);
+            else{
+                if (stack.isEmpty()) return "NO";
                 stack.pop();
-            } else stack.push(charArray[i]);
+            }
         }
-
-        if (stack.isEmpty()) return "YES";
+        if (!stack.isEmpty()) return "NO";
         return answer;
     }
 }
