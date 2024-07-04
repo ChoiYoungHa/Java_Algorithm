@@ -11,4 +11,20 @@ public class ex_03_01 {
         ex_03_01 ex = new ex_03_01();
         System.out.print(ex.solution(s));
     }
+
+    public String solution(String s) {
+        Stack<Character> stack = new Stack<>();
+        String answer = "";
+        for (char x : s.toCharArray()) {
+            if (x == ')'){
+                while(stack.pop() != '(');
+            }
+            else stack.push(x);
+        }
+
+        for (int i = 0; i < stack.size(); i++) {
+            answer += stack.get(i);
+        }
+        return answer;
+    }
 }
