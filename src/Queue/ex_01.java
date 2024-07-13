@@ -20,7 +20,6 @@ public class ex_01 {
         for (int i = 1; i <= n; i++) {
             queue.offer(i);
         }
-
         // 큐의 첫번째 두번째 값을 큐에 삽입과 동시에 삭제
         // k값은 삽입하지 않고 그냥 삭제
         // 값을 poll 하고, 다시 큐에 삽입 + 1
