@@ -35,7 +35,6 @@ public class ex_01 {
             Integer addValue = queue.poll();
             queue.offer(addValue);
         }
-
         return queue.poll();
     }
 }

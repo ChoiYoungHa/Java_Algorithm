@@ -12,5 +12,6 @@ public class Main {
         String ddd = ex_06.solution(log);
         System.out.println(ddd);
 
+
     }
 }

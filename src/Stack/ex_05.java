@@ -1,7 +1,5 @@
 package Stack;
 
-import org.w3c.dom.html.HTMLOptGroupElement;
-
 import javax.swing.*;
 import java.util.Scanner;
 import java.util.Stack;
