@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="122b0e2f-8a42-4a49-91a4-902ba68dcee3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2hPbk1qv4ArBpw7hRMZ2pKC0ur6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Array.ex_01.executor": "Run",
+    "Application.Bubble_Sort.executor": "Run",
+    "Application.Insert_Sort.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Select_Sort.executor": "Run",
+    "Application.Stack.ex_01.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TwoPoint.ex_01.executor": "Run",
+    "Application.ex04.executor": "Run",
+    "Application.ex_01.executor": "Run",
+    "Application.ex_02.executor": "Run",
+    "Application.ex_02_1.executor": "Run",
+    "Application.ex_03.executor": "Run",
+    "Application.ex_03_01.executor": "Run",
+    "Application.ex_04.executor": "Run",
+    "Application.ex_04_01.executor": "Run",
+    "Application.ex_05.executor": "Run",
+    "Application.ex_05_01.executor": "Run",
+    "Application.ex_06.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Sort" />
+      <recent name="TwoPoint" />
+      <recent name="Array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_02_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.ex_02_1" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.ex_03" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_03_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.ex_03_01" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.ex_04" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ex_04" />
+        <item itemvalue="Application.ex_03_01" />
+        <item itemvalue="Application.ex_03" />
+        <item itemvalue="Application.ex_02_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-temurin-17.0.10-4caba194b151-a600c99e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="122b0e2f-8a42-4a49-91a4-902ba68dcee3" name="Changes" comment="" />
+      <created>1717498799320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717498799320</updated>
+      <workItem from="1717498800882" duration="4088000" />
+      <workItem from="1717584961374" duration="1149000" />
+      <workItem from="1717650720803" duration="5969000" />
+      <workItem from="1717728016726" duration="3242000" />
+      <workItem from="1717737051665" duration="31000" />
+      <workItem from="1717831434605" duration="2920000" />
+      <workItem from="1718243764886" duration="86528000" />
+      <workItem from="1718945069081" duration="5008000" />
+      <workItem from="1719130849696" duration="5149000" />
+      <workItem from="1719140611293" duration="9425000" />
+      <workItem from="1719180716264" duration="884000" />
+      <workItem from="1719202278073" duration="23281000" />
+      <workItem from="1719368183816" duration="3194000" />
+      <workItem from="1719448461990" duration="14532000" />
+      <workItem from="1719802565116" duration="22000" />
+      <workItem from="1719803011840" duration="4566000" />
+      <workItem from="1719995126810" duration="8071000" />
+      <workItem from="1720155028159" duration="8220000" />
+      <workItem from="1720242317696" duration="21000" />
+      <workItem from="1721048580227" duration="1058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
