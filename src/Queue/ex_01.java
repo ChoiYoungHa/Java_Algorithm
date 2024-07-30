@@ -17,7 +17,7 @@ public class ex_01 {
 
     public int solution(int n, int k) {
         Queue<Integer> queue = new LinkedList<>();
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) { // 1 ~ n까지 들어감
             queue.offer(i);
         }
 
@@ -31,9 +31,10 @@ public class ex_01 {
             if (count == k) {
                 queue.poll();
                 count = 0;
+            }else{
+                Integer addValue = queue.poll();
+                queue.offer(addValue);
             }
-            Integer addValue = queue.poll();
-            queue.offer(addValue);
         }
         return queue.poll();
     }

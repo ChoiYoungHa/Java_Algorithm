@@ -11,6 +11,9 @@ public class ex_01 {
         map.put("id2", new Customer("id2", "pw2", 15, "강남", "Basic", "남자"));
         map.put("id3", new Customer("id3", "pw3", 50, "강북", "VIP", "여자"));
 
+        map.values().stream().filter(v -> v.getGrade().equals("VIP")).forEach(v -> System.out.println(v.getAge()));
+
+
 
 
     }
