@@ -2,6 +2,7 @@ package Sort;
 
 import sun.awt.image.ImageWatched;
 
+import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -26,19 +27,20 @@ public class LRU {
     }
 
     public static int[] solution(int size, int[] x){
-
         Queue<Integer> lru = new LinkedList<>();
-        // 어떻게 사이즈를 특정짓지? 아 queue 사이즈!
-        // 배열을 생성할 필요없이 사용자가 입력한 값이 사이즈가 되고, 이 사이즈가 큐 사이즈가 된다면? 큐가 다 찬거
-        // 거기서 만약에 1개가 더 들어왔고 hit가 되지 않았다면 마지막걸 pop 하면 되겠네?
-        //
 
-        for (int i = 0; i < x.length; i++) {
-            lru.offer(x[i]);
-            if (lru.contains(x[i])) {
-
+        for(int value : x){
+            if (!lru.contains(value)){
+                lru.offer(value);
+            }else{
+                // 이미 존재한다면 다시 삽입을하고, 만약에 사이즈가 넘으면 가장 첫번째로 들어온 것을 지운다.
+                lru.offer(value);
+                if (size < lru.size()) {
+                    lru.poll();
+                }
             }
         }
+
         return x;
     }
 }
