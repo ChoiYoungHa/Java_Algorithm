@@ -1,11 +1,5 @@
 package Sort;
-
-import sun.awt.image.ImageWatched;
-
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 public class LRU {
 
@@ -20,27 +14,26 @@ public class LRU {
             arr[i] = sc.nextInt();
         }
 
-        int[] solution = solution(size, arr);
-        for (int value : solution) {
-            System.out.println(value);
-        }
+        Deque<Integer> answer = solution(size, arr);
+        answer.forEach(i -> System.out.print(i + " "));
     }
 
-    public static int[] solution(int size, int[] x){
-        Queue<Integer> lru = new LinkedList<>();
-
+    public static Deque<Integer> solution(int size, int[] x){
+        Deque<Integer> lru = new LinkedList<>();
         for(int value : x){
-            if (!lru.contains(value)){
-                lru.offer(value);
-            }else{
-                // 이미 존재한다면 다시 삽입을하고, 만약에 사이즈가 넘으면 가장 첫번째로 들어온 것을 지운다.
-                lru.offer(value);
-                if (size < lru.size()) {
-                    lru.poll();
+            if (!lru.contains(value)) {
+                if (lru.size() == size){
+                    lru.removeLast();
+                    lru.addFirst(value);
+                }else{
+                    lru.addFirst(value);
                 }
+            } else {
+                lru.remove(value);
+                lru.addFirst(value);
             }
         }
 
-        return x;
+        return lru;
     }
 }
