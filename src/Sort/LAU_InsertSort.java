@@ -17,11 +17,33 @@ public class LAU_InsertSort {
         }
         LAU_InsertSort ab = new LAU_InsertSort();
         int[] solution = ab.solution(size, arr);
-
+        for (int v : solution) {
+            System.out.print(v + " ");
+        }
     }
 
     public int [] solution(int size, int [] arr){
 
-        return arr;
+        int[] answer = new int[size];
+
+        int hit = -1;
+        for (int x : arr) {
+            for (int i = 0; i < size; i++) {
+                // 1.hit가 된다면?
+                if (answer[i] == x) hit = i;
+            }
+            if (hit != -1) {
+                for (int i = hit; i >= 1; i--) {
+                    answer[i] = answer[i - 1];
+                }
+            }else {
+                for (int i = size - 1; i >= 1; i--) {
+                    answer[i] = answer[i - 1];
+                }
+            }
+            hit = -1;
+            answer[0] = x;
+        }
+        return answer;
     }
 }

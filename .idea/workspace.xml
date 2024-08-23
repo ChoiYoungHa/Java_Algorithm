@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122b0e2f-8a42-4a49-91a4-902ba68dcee3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sort/LAU_InsertSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/LAU_InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/LAU_InsertSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sort/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/LRU.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
     "Application.Array.ex_01.executor": "Run",
     "Application.Bubble_Sort.executor": "Run",
     "Application.Insert_Sort.executor": "Run",
+    "Application.LAU_InsertSort.executor": "Run",
     "Application.LRU.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Queue.ex_03.executor": "Run",
@@ -80,7 +81,20 @@
       <recent name="Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LRU">
+  <component name="RunManager" selected="Application.LAU_InsertSort">
+    <configuration name="LAU_InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.LAU_InsertSort" />
+      <module name="Java_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort.LRU" />
       <module name="Java_Algorithm" />
@@ -129,26 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.ex_04" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LAU_InsertSort" />
         <item itemvalue="Application.LRU" />
         <item itemvalue="Application.Queue.ex_03" />
         <item itemvalue="Application.ex_02" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ex_04" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +195,8 @@
       <workItem from="1722598266245" duration="27000" />
       <workItem from="1723016113729" duration="175000" />
       <workItem from="1724235644852" duration="4602000" />
-      <workItem from="1724319424736" duration="1846000" />
+      <workItem from="1724319424736" duration="2465000" />
+      <workItem from="1724370408902" duration="5894000" />
     </task>
     <servers />
   </component>
