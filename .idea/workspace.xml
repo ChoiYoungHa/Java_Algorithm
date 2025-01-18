@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8910780-1f5e-4b63-b052-7f7441ee671c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mission/ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mission/ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -38,6 +41,7 @@
     "Application.ex01.executor": "Run",
     "Application.ex02.executor": "Run",
     "Application.ex_01.executor": "Run",
+    "Application.인형뽑기.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -50,7 +54,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ex02">
+  <component name="RunManager" selected="Application.인형뽑기">
+    <configuration name="인형뽑기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="인프런.스택문제.크레인_인형뽑기_카카오.인형뽑기" />
+      <module name="my-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="인프런.스택문제.크레인_인형뽑기_카카오.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mission.ex01" />
       <module name="my-project" />
@@ -92,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.인형뽑기" />
         <item itemvalue="Application.ex02" />
         <item itemvalue="Application.ex01" />
         <item itemvalue="Application.ex_01" />
@@ -114,11 +132,47 @@
       <option name="presentableId" value="Default" />
       <updated>1726555884673</updated>
       <workItem from="1726555885917" duration="225000" />
-      <workItem from="1727914452606" duration="3028000" />
+      <workItem from="1727914452606" duration="7219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
