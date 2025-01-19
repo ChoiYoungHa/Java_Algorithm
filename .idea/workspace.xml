@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8910780-1f5e-4b63-b052-7f7441ee671c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/인프런/이분검색_결정_알고리즘/선택정렬/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/인프런/이분검색_결정_알고리즘/선택정렬/선택정렬.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,8 @@
     "Application.ex01.executor": "Run",
     "Application.ex02.executor": "Run",
     "Application.ex_01.executor": "Run",
-    "Application.인형뽑기.executor": "Debug",
+    "Application.선택정렬.executor": "Run",
+    "Application.인형뽑기.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -54,13 +56,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.인형뽑기">
+  <component name="RunManager" selected="Application.선택정렬">
     <configuration name="인형뽑기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="인프런.스택문제.크레인_인형뽑기_카카오.인형뽑기" />
       <module name="my-project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="인프런.스택문제.크레인_인형뽑기_카카오.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="선택정렬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="인프런.이분검색_결정_알고리즘.선택정렬" />
+      <module name="my-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="인프런.이분검색_결정_알고리즘.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.선택정렬" />
         <item itemvalue="Application.인형뽑기" />
         <item itemvalue="Application.ex02" />
         <item itemvalue="Application.ex01" />
@@ -138,41 +154,5 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/인프런/스택문제/크레인_인형뽑기_카카오/인형뽑기.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

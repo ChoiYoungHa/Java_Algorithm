@@ -53,7 +53,7 @@ public class 인형뽑기 {
                     }else{
                         bucket.push(board[j][move]);
                     }
-                    board[j][move] =0;
+                    board[j][move] = 0;
                     break;
                 }
             }
